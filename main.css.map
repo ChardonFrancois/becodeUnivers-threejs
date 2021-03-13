@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,+CAA+C;IAC/C,iBAAiB;AACrB","file":"main.css","sourcesContent":["body{\n    margin: 0;\n    background: linear-gradient(to top, #000, #FFF);\n    min-height: 100vh;\n}\n\n"],"sourceRoot":""}
