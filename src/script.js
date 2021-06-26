@@ -6,7 +6,7 @@ import './style.css';
 
 
 const textureLoader = new TextureLoader();
-const flamme = textureLoader.load(IMG);
+const beCodeLogo = textureLoader.load(IMG);
 
 const scene = new Scene();
 const distance = 6;
@@ -35,7 +35,7 @@ for(let i = 0 ; i<points.length; i++){
 }
 const logo = new BoxGeometry(1,1,1);
 const materialLogo = new MeshBasicMaterial({
-    map: flamme,
+    map:,
     alphaTest: 0.5,
     transparent: true,
 });
@@ -49,7 +49,7 @@ const pointMaterial = new PointsMaterial(
     {
         // color: 0xff0000,
         size: 1,
-        map: flamme,
+        map: beCodeLogo,
         
         alphaTest: 0.5,
         transparent: true,
